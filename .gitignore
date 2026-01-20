@@ -1,6 +1,5 @@
 *.fasta
 *.txt
 /output
-*.def
 .work/
 *.sif
