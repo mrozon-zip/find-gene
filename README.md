@@ -1,4 +1,4 @@
-Here is a description of a workflow that can be used for determination if a specific sequence is found in a database (database in this context is an assembly of a genome)
+Here is a description of a workflow that can be used for determination if a specific reference gene sequence is present within the assembled genome.
 
 - [Requirements:](#requirements)
 - [Environment:](#environment)
@@ -177,7 +177,7 @@ Importantly:
 
 # Container
 
-`find-gene.sif` is an Apptainer container that checks whether one or more **reference nucleotide sequences** (given by NCBI accession IDs) are present in one or more **assembled bacterial genomes**.
+`find-gene.sif` is an Apptainer container that checks whether one or more **reference nucleotide sequences** (given by NCBI accession IDs) are present in one or more **assembled bacterial genomes**. Remember "-i" flag is for reference gene.
 
 The container:
 
